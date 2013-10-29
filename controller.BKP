@@ -107,27 +107,31 @@
 "Relocatable file" "Renesas M16C Linker" "Renesas M16C Assembler" 
 "Relocatable file" "Renesas M16C Linker" "Renesas M16C C Compiler" 
 [PROJECT_FILES]
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\Controller.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\MotorPwm.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\MotorSpeed.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\PControlMethod.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\RotaryEncoder.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\Controller.c" "User" "C source file|Model" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\MotorPwm.c" "User" "C source file|Hardware" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\MotorSpeed.c" "User" "C source file|Model" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\PControlMethod.c" "User" "C source file|ControlAlgorithm" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\RotaryEncoder.c" "User" "C source file|Hardware" 2 
 "D:\yoshiaki\devel\hew_workspace_mdd\controller\application.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\encoder_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\encoder_driver_test.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\encoder_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\encoder_driver_test.c" "User" "C source file|driver" 2 
 "D:\yoshiaki\devel\hew_workspace_mdd\controller\init_devices.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\led_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\led_driver_test.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\motor_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\motor_driver_test.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\led_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\led_driver_test.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\motor_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\motor_driver_test.c" "User" "C source file|driver" 2 
 "D:\yoshiaki\devel\hew_workspace_mdd\controller\ncrt0.a30" "User" "Assembly source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\switch_driver.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\switch_driver_test.c" "User" "C source file" 2 
-"D:\yoshiaki\devel\hew_workspace_mdd\controller\timer_driver.c" "User" "C source file" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\switch_driver.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\switch_driver_test.c" "User" "C source file|driver" 2 
+"D:\yoshiaki\devel\hew_workspace_mdd\controller\timer_driver.c" "User" "C source file|driver" 2 
 "D:\yoshiaki\devel\hew_workspace_mdd\controller\utility.c" "User" "C source file" 2 
 [FOLDER]
 "Assembly source file" "Assembly source file" 
 "C source file" "C source file" 
+"C source file|ControlAlgorithm" "" 
+"C source file|Hardware" "" 
+"C source file|Model" "" 
+"C source file|driver" "" 
 [GENERAL_DATA_PROJECT]
 "USE_CUSTOM_LINKAGE_ORDER" "1" 
 [ON_DEMAND_COMPONENTS_LOADED]

@@ -1,8 +1,14 @@
 #include "Controller.h"
-
 #include "timer_driver.h"
 
+
 const int DeltaTime = 100; // [ms]
+
+
+void C_init()
+{
+	set_timer_task(C_doControl);
+}
 
 void C_setTargetValue(int target)
 {
@@ -34,10 +40,6 @@ void C_doControl() {
 }
 
 
-void C_init()
-{
-	set_timer_task(C_doControl);
-}
 /*
 void int_ta2()
 {

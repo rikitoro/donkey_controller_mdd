@@ -33,7 +33,7 @@ extern int C_getTargetValue(void);
 /**
  * 1サイクル制御を行う 
  */
-//extern void C_doControl();
+extern void C_doControl();
 
 /**
  * 制御パラメータを設定する

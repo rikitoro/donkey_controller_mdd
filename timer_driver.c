@@ -1,6 +1,8 @@
+// タイマーB2とA1を使って100msごとにtimer_taskを起動する
+
 #include "sfr29.h"
 #include "timer_driver.h"
-//#include "Controller.h"
+
 
 static void (*timer_task)() = null_task;
 //static cnt = 0;
