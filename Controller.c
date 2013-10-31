@@ -2,7 +2,7 @@
 #include "timer_driver.h"
 
 
-const int DeltaTime = 100; // [ms]
+const int T_CONTROL = 100; // [ms]
 
 
 void C_init()
@@ -30,19 +30,21 @@ void C_stop()
 	timer_stop();
 }
 
-void C_setControlParameter(float kp)
-{
-	PC_setControlParameter(kp);
-}
-
+/**
+ * 1サイクル制御を行う
+ * このメソッドは100ms周期で呼ばれる
+ */
 void C_doControl() {
-	MP_setLevel(PC_calcControlValue(MS_getTargetValue(),MS_getValue(),DeltaTime));
+	int targetValue;
+	int value;
+	int level;	
+	// MortorSpeed クラスから目標値 targetValueを取得する
+	targetValue = MS_getTargetValue();
+	// MortorSpeed クラスから測定値 valueを取得する
+	value = MS_getValue();
+	// PControlMethodクラスに制御量を問い合わせる。
+	level = PC_calcControlValue(targetValue,value,T_CONTROL);
+	// MortorPwmクラスのPWMのlevelを更新する
+	MP_setLevel(level);
 }
 
-
-/*
-void int_ta2()
-{
-	C_doControl();
-}
-*/

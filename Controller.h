@@ -4,8 +4,8 @@
  *
  * クラス名: Controller(C)
  * 属性:
- * 操作: setTargetVale,
- * 関連: RotationSpeed(RS)
+ * 操作: 
+ * 関連: RotationSpeed(RS), PCcontrolMethod(PC
  */
 
 #ifndef _CONTROLLER
@@ -34,11 +34,6 @@ extern int C_getTargetValue(void);
  * 1サイクル制御を行う 
  */
 extern void C_doControl();
-
-/**
- * 制御パラメータを設定する
- */
-extern void C_setControlParameter(float kp);
 
 
 /**
